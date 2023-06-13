@@ -1,0 +1,13 @@
+# run: conda env create --file environment.yml
+name: CapAM_MRTA
+channels:
+- pytorch
+dependencies:
+- python>=3.6
+- anaconda
+- tqdm
+- pytorch
+- torchvision
+- cuda91
+- pip:
+  - tensorboard_logger
